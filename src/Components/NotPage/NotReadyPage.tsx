@@ -1,6 +1,7 @@
 import '../PhonePage/PhonesPage.scss';
 import '../../App.scss';
 import { BackLink } from '../BackLink/BackLink';
+import React from 'react';
 
 export const NotReadyPage = () => {
   return (

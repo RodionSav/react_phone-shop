@@ -3,6 +3,7 @@ import { Product } from '../../types/product';
 import { ProductCard } from './ProductCard';
 import './Product.scss';
 import { Loader } from '../Loader/Loader';
+import React from 'react';
 
 type Props = {
   products: Product[];

@@ -4,6 +4,7 @@ import '../ProductCard/Product.scss';
 import * as favouriteActions from '../features/FavouritesSlicer';
 import * as cartActions from '../features/CartSlicer';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
+import React from 'react';
 
 type Props = {
   product: Product;

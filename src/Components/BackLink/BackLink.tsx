@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './backlink.scss';
+import React from 'react';
 
 type Props = {
   text: string;

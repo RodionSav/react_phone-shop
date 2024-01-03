@@ -3,6 +3,7 @@ import './CartPage.scss';
 import { useState } from 'react';
 import { CartProduct } from './CartProduct';
 import { useAppSelector } from '../../app/hooks';
+import React from 'react';
 
 export const CartPage = () => {
   const cartProducts = useAppSelector(state => state.cartProducts.items);

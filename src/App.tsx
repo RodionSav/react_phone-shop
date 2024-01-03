@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.scss';
 import { Outlet, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';

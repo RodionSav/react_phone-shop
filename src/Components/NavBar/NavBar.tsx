@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './nav.scss';
 import cn from 'classnames';
+import React from 'react';
 
 const menuItems = [
   'phones',

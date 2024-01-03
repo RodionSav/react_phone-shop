@@ -4,6 +4,7 @@ import { BASE_URL } from '../../utils/fetchClient';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import * as cartActions from '../features/CartSlicer';
 import * as priceActions from '../features/ProductPrice';
+import React from 'react';
 
 type CartItem = Product & { quantity: number };
 

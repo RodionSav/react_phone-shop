@@ -11,6 +11,7 @@ import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import * as productsActions from '../features/ProductsSlicer';
 import { Loader } from '../Loader/Loader';
 import { SortType } from '../../types/sortType';
+import React from 'react';
 
 const sortBy = ['No sorting', 'Newest', 'Alphabetically', 'Cheapest'];
 

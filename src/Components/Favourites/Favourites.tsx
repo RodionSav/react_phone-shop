@@ -3,6 +3,7 @@ import { ProductCard } from '../ProductCard/ProductCard';
 import { BackLink } from '../BackLink/BackLink';
 import { useAppSelector } from '../../app/hooks';
 import { Product } from '../../types/product';
+import React from 'react';
 
 export const Favourites = () => {
   const favouriteProducts = useAppSelector(state => state.favourites.items);

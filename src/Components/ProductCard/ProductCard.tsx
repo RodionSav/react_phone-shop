@@ -3,6 +3,7 @@ import { Product } from '../../types/product';
 import './Product.scss';
 import { BASE_URL } from '../../utils/fetchClient';
 import { ActionButtons } from '../AddFavourite/ActionButtons';
+import React from 'react';
 
 type Props = {
   product: Product;

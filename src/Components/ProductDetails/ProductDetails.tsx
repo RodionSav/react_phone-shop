@@ -16,6 +16,7 @@ import { Color, Colors } from './colors';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import { Loader } from '../Loader/Loader';
 import * as actions from '../features/ProductsSlicer';
+import React from 'react';
 
 export const ProductDetails = () => {
   const dispatch = useAppDispatch();

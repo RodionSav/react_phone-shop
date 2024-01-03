@@ -3,6 +3,7 @@ import './Search.scss';
 import { useSearchParams } from 'react-router-dom';
 import debounce from 'lodash.debounce';
 import { getSearchWith } from '../../utils/searchHelper';
+import React from 'react';
 
 export const Search = () => {
   const [searchParams, setSearchParams] = useSearchParams();

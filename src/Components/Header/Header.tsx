@@ -5,6 +5,7 @@ import './header.scss';
 import { Logo } from '../Logo/Logo';
 import { Search } from '../Search/Search';
 import { useAppSelector } from '../../app/hooks';
+import React from 'react';
 
 export const Header = () => {
   const location = useLocation();

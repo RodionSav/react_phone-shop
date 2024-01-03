@@ -6,6 +6,7 @@ import { ShopCategory } from '../shopCategory/ShopCategory';
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
 import * as actions from '../features/ProductsSlicer';
 import { Product } from '../../types/product';
+import React from 'react';
 
 export const ProductsSlider = () => {
   const dispatch = useAppDispatch();
